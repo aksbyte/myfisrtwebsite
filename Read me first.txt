@@ -1,0 +1,41 @@
+Welcome to the post pannel 
+
+NOTE:-
+
+
+1. for post a new post please create a new <div> inside "div->  "page1"
+2. create two div 1st for photo 2nd for text
+   please write post in ancher tag <a></a>
+
+Example:-
+          
+		  post img size must be:
+		  
+		  height:230px;
+		  width:330px;
+		  
+		  
+               <a id="none"href="#" style="color: black;" > <font size="4px;">
+  <center>  #post </center>
+</font> </a>
+   
+########photo div size
+
+#post1
+{
+    height: 240px;
+    width: 775px;
+    border: 10px solid white;  
+    margin-left: -2px;
+}
+
+
+########And Text div size
+
+#posttext
+{
+  height: 230px;
+    width: 380px;
+    border: 7px solid white;  
+    float: right;
+}
